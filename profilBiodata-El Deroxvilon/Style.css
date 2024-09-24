@@ -1,0 +1,161 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    transform: scale(1.25); 
+    transform-origin: top left; 
+    width: 80%;
+}
+
+/* Home Section */
+#home {
+    background-image: url('assets/Bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed; 
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 150px;
+    font-family: 'Comic Sans MS', cursive;
+}
+.about p {
+    text-align: justify;
+}
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro p {
+    font-size: 27px;
+}
+
+/* Navigation Bar */
+.site-navbar {
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+    z-index: 1999;
+}
+
+.container-fluid {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+@media (max-width: 1199.98px) {
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.site-logo {
+    position: absolute;
+    left: 5%;
+}
+
+@media (max-width: 767.98px) {
+    .site-logo {
+        position: relative;
+        left: auto;
+    }
+}
+
+.site-logo img {
+    position: relative;
+    top: -10px; 
+}
+
+.site-logo a {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    margin-left: 10px; 
+    font-weight: bold;
+}
+
+.site-navigation {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.site-menu {
+    margin-bottom: 0;
+}
+
+.site-menu li {
+    display: inline-block;
+}
+
+.site-menu a {
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.site-menu a:hover,
+.site-menu .active {
+    color: rgb(117, 116, 116);
+}
+
+@media (max-width: 767.98px) {
+    .site-navigation {
+        position: relative;
+        left: auto;
+        transform: none;
+    }
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.contact-section a {
+    text-decoration: none; 
+}
+
+.contact-section a:hover {
+    text-decoration: none; 
+}
+
+.circle-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #333; 
+}
