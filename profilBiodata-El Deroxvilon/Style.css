@@ -67,8 +67,9 @@ body {
     font-size: 2rem;
     letter-spacing: 0.2rem;
     text-decoration: none;
-    margin-left: 10px; 
+    margin-left: 10px;
     font-weight: bold;
+    font-family: "Century", "Century Gothic", sans-serif;
 }
 
 .site-navigation {
@@ -106,11 +107,11 @@ body {
 }
 
 .intro h1 {
-    font-size: 55px;
+    font-size: 65px;
 }
 
 .intro p {
-    font-size: 32px;
+    font-size: 42px;
 }
 
 /* About Section */
