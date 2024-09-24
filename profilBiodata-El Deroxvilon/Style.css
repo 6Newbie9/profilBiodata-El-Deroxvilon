@@ -9,9 +9,6 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    transform: scale(1.25); 
-    transform-origin: top left; 
-    width: 80%;
 }
 
 /* Home Section */
@@ -26,25 +23,6 @@ body {
     justify-content: center;
     text-align: center;
     background-attachment: fixed; 
-}
-
-/* About Section */
-#about {
-    background-color: white;
-    padding: 50px 0;
-    margin-top: 150px;
-    font-family: 'Comic Sans MS', cursive;
-}
-.about p {
-    text-align: justify;
-}
-
-.intro h1 {
-    font-size: 50px;
-}
-
-.intro p {
-    font-size: 27px;
 }
 
 /* Navigation Bar */
@@ -127,6 +105,35 @@ body {
     }
 }
 
+.intro h1 {
+    font-size: 55px;
+}
+
+.intro p {
+    font-size: 32px;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 250px;
+    padding-bottom: 70px;
+    font-family: 'Comic Sans MS', cursive;
+}
+.col-md-6 p {
+    text-align: justify;
+    font-size: 23px;
+}
+
+.circle-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #333; 
+}
+
 /* Contact Section */
 .contact-section {
     padding: 50px 20px;
@@ -144,18 +151,12 @@ body {
     margin-top: 10px;
 }
 
-.contact-section a {
-    text-decoration: none; 
+.list-unstyled a {
+    color: black;
+    text-decoration: none;
 }
 
-.contact-section a:hover {
+.list-unstyled a:hover {
+    color: blue;
     text-decoration: none; 
-}
-
-.circle-image {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%; 
-    object-fit: cover; 
-    border: 2px solid #333; 
 }
